@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Finder</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+
+<body>
+    <center>
+        <h1 class="font-weight-bolder bg-white borderR_30 shadow_10 px-3 py-2 fit_width mt-5">Object Finder</h1>
+        <p class="mt-4 font-weight-bold bg-white borderR_20 shadow_5 px-3 py-2 fit_width">Note:.................</p>
+
+        <p class="mt-4 font-weight-bold bg-white borderR_20 shadow_5 px-3 py-2 fit_width">Object :</p>
+        <!-- <br> -->
+        <input class="form-control mt-4 shadow_5" style="width:300px;" type="text" id="objectI" placeholder="Enter the object.">
+    
+        <br>
+        <!-- <br> -->
+
+        <button id="startB" class="btn btn-success btn-lg shadow_5">Start</button>
+        <br>
+        <p id="statusP" class="mt-4 font-weight-bold bg-white borderR_20 shadow_5 px-3 py-2 d-inline-block"></p>
+        <p id="resultP" class="mt-4 font-weight-bold bg-white borderR_20 shadow_5 px-3 py-2 d-inline-block"></p>
+
+        <div id="canvHolder" class="mb-5"></div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>

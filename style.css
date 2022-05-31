@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(90deg,blue,black,blue);
+}
+
+canvas{
+    border-radius: 20px;
+    animation: shadowChange 5s linear 0s infinite;
+}
+
+@keyframes shadowChange {
+    0%{box-shadow: 1px 1px 36px red;}
+    14%{box-shadow: 1px 1px 36px yellow;}
+    28%{box-shadow: 1px 1px 36px greenyellow;}
+    42%{box-shadow: 1px 1px 36px cyan;}
+    56%{box-shadow: 1px 1px 36px blue;}
+    70%{box-shadow: 1px 1px 36px rgb(255, 0, 247);}
+    100%{box-shadow: 1px 1px 36px red}
+}
